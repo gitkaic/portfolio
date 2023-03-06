@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+div{
+//  border: 1px solid red;
+}
+
+nav{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+  font-style: normal;
+  position:absolute;
+left: 100px;
+  top: 35px;
+  }
+nav ul{
+    list-style-type: none;
+     font-style: normal;
+     font-size: 15px;
+  }
+
+.kaicullen{
+  width: 250px;
+  height: 100px;
+  object-fit: contain;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.instagram{
+  right: 20px;
+  top:35px;
+  position: fixed;
+}
+
+.photo{
+
+}
+
+
+
+ h1{
+   margin-left: auto;
+   margin-right: auto;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  font-size: 25px;
+  text-decoration-style: none;
+  margin-top: 20px;
+}
+h2{
+  margin-left: auto;
+  margin-right: auto;
+ font-family: 'Anton', sans-serif;
+ letter-spacing: 1px;
+ font-size: 16px;
+ text-decoration-style: none;
+
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+a:hover{
+  color: gray;
+}
+
+
+.container{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 0px;
+  width: 75%;
+  height: 500px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box img{object-fit: cover; width:100%; height:100%}
+
+.box{
+  flex:1;
+  width: 5%;
+  height: 500px;
+ //border:solid 1px red;
+ object-fit: scale-down;
+}
+
+.box:hover{
+  flex:4;
+}
+
+.one{
+  margin-top: 25px;
+  margin-left: 20%;
+}
+
+.two{
+  margin-top: -400px;
+margin-left: 50%;
+}
+.three{
+margin-top: 100px;
+margin-left: 15%;
+}
+.four{
+margin-top: -450px;
+margin-left: 38%;
+}
+
+.five{
+  margin-top: -550px;
+  margin-left: 61%
+}
+
+.six{
+  margin-top: 100px;
+  margin-left:25%;
+}
+
+.seven{
+  margin-top:75px;
+  margin-left: 300px;
+}
+
+.eight{
+  margin-top:-950px;
+  margin-left: 50%;
+}
+
+.nine{
+  margin-top:50px;
+  margin-left: 55%;
+}
+
+.ten{
+  margin-left: 20%;
+}
+.eleven{
+  margin-left: 45%;
+  margin-top: -450px;
+}
+
+.twelve{
+  margin-left: 15%;
+  margin-top: 100px;
+}
+
+.thirteen{
+  margin-left: 52%;
+  margin-top: -420px;
+}
+
+.fourteen{
+  margin-left: 16%;
+  margin-top: ;
+}
+
+.fifteen{
+  margin-left: 44%;
+  margin-top: -500px;
+}
+
+.sixteen{
+  margin-left: 17%;
+  margin-top: 130px;
+}
+
+.seventeen{
+  margin-left: 59%;
+  margin-top: -480px;
+}
+.eighteen{
+  margin-left: 17% ;
+  margin-top: -25px;
+}
+
+.nineteen{
+  margin-left: 44% ;
+  margin-top: -470px;
+}
+.twenty{
+  margin-left: 40%;
+  margin-top: 100px;
+}
+.twentyone{
+  margin-left: 40%;
+  margin-top: -20px;
+}
+.twentytwo{
+  margin-left: 16%;
+  margin-top: -540px;
+}
+.twentythree{
+  margin-left: 62%;
+  margin-top: -505px;
+}
+.twentyfour{
+  margin-left: 25% ;
+  margin-top: 50px;
+}
+
+.twentyfive{
+  margin-left: 55% ;
+  margin-top: -530px;
+}
+
+.twentysix{
+  margin-left: 55% ;
+  margin-top: -50px;
+}
+
+.twentyseven{
+  margin-left: 15% ;
+  margin-top: 50px;
+}
+.twentyeight{
+  margin-left: 40% ;
+  margin-top: -500px;
+}
+
+.twentynine{
+  margin-left: 65% ;
+  margin-top: -500px;
+}
+
+.thirty{
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+
+
+
+
+* {
+       box-sizing: border-box
+     }
+     body {
+       font-family: Verdana, sans-serif;
+       margin: 0
+     }
+     .mySlides {
+       display: none
+     }
+     img {
+       vertical-align: middle;
+       align-content: center;
+     }
+     .slideshow-container {
+       max-width: 1000px;
+       position: relative;
+       margin: auto;
+     }
+     /* Next & previous buttons */
+     .prev,
+     .next {
+       cursor: pointer;
+       position: absolute;
+       top: 50%;
+       width: auto;
+       padding: 16px;
+       margin-top: -22px;
+       color: black;
+       font-weight: bold;
+       font-size: 18px;
+       transition: 0.6s ease;
+       border-radius: 0 3px 3px 0;
+       user-select: none;
+     }
+     /* Position the "next button" to the right */
+     .next {
+       right: 0;
+       border-radius: 3px 0 0 3px;
+     }
+     /* On hover, add a black background color with a little bit see-through */
+     .prev:hover,
+     .next:hover {
+       background-color: black, 0.5;
+     }
+     /* Caption text */
+     .text {
+       color: #ffffff;
+       font-size: 15px;
+       padding: 8px 12px;
+       position: absolute;
+       bottom: 8px;
+       width: 100%;
+       text-align: center;
+     }
+     /* Number text (1/3 etc) */
+     .numbertext {
+       color: #ffffff;
+       font-size: 12px;
+       padding: 8px 12px;
+       position: absolute;
+       top: 0;
+     }
+     /* The dots/bullets/indicators */
+     .dot {
+       cursor: pointer;
+       height: 15px;
+       width: 15px;
+       margin: 0 2px;
+       background-color: #999999;
+       border-radius: 50%;
+       display: inline-block;
+       transition: background-color 0.6s ease;
+       margin-bottom: 100px;
+     }
+     .active,
+     .dot:hover {
+       background-color: #111111;
+     }
+     /* Fading animation */
+     .fade {
+       -webkit-animation-name: fade;
+       -webkit-animation-duration: 1.5s;
+       animation-name: fade;
+       animation-duration: 1.5s;
+     }
+     @-webkit-keyframes fade {
+       from {
+         opacity: .9
+       }
+       to {
+         opacity: 1
+       }
+     }
+     @keyframes fade {
+       from {
+         opacity: .9
+       }
+       to {
+         opacity: 1
+       }
+     }
+     /* On smaller screens, decrease text size */
+     @media only screen and (max-width: 300px) {
+       .prev,
+       .next,
+       .text {
+         font-size: 11px
+       }
+     }
+
+
+.text1{
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-decoration: bold;
+  text-align: left;
+  margin-top: 220px;
+
+}
+.text2{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+}
+
+.text3{
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-decoration: bold;
+  text-align: right;
+  margin-top: 220px;
+
+}
+.text4{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+    text-align: right;
+}
+
+.text10{
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-decoration: bold;
+}
+
+.text11{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+}
+
+.text12{
+  text-align:center;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  text-decoration: bold;
+}
+
+     .grid > * {
+    // border: 2px solid #77A6B6;
+
+     }
+
+ .item2{
+ margin-top: 100px;
+ grid-column: 2 / 3;
+ margin-left: 50px;
+ margin-right: auto;
+
+ }
+
+     .grid {
+       display: grid;
+
+       object-fit: scale-down;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ gap: 50px;
